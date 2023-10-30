@@ -12,6 +12,7 @@ import com.abm.entity.Song;
 
 public class AlbumSongDao extends GenericDao {
 
+	
 	public List<Song> fetchSongsByArtist(String artist) {
 		EntityManagerFactory emf = 
 				Persistence.createEntityManagerFactory("rupranswahajokisayo");
